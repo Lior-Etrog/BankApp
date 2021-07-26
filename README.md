@@ -21,4 +21,5 @@ Generate random numbers and work with String API.
 the CSV file should look like that-
 
 | Full Name  | ID Number  | Account type  | Initial deposit |
+| ---------- | ---------- | ------------- | --------------- |
 
