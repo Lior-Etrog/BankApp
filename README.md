@@ -1,5 +1,5 @@
 # BankApp
-BankApp is an application that handle new bank account requests.
+BankApp is an application that handles new bank account requests.
 # Summery
 the application read a CSV file that contain names, ID numbers, the account type and initial deposit of new costumers.
 Both Savings and Checking accounts share the following properties-
@@ -26,3 +26,5 @@ the CSV file should look like that-
 | Full Name  | ID Number  | Account type  | Initial deposit |
 | ---------- | ---------- | ------------- | --------------- |
 
+# Acknowledgement
+this project was created as part of a Udemy course- 
