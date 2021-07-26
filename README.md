@@ -13,8 +13,11 @@ Both accounts use an interface that determines the base intrest rate.
 
 # Learning Objectives
 Learn to develop a robust application architecture.
+
 Use an interface API.
+
 Read data from a file and store in an appropriate data structure.
+
 Generate random numbers and work with String API.
 
 # CSV
