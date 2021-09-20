@@ -34,7 +34,7 @@ public abstract class Account implements IBaseRate {
 		double accruedIntrest = balance * (rate/100);
 		balance += accruedIntrest;
 		System.out.println("Accrued Intrest: " + accruedIntrest + "$");
-		showBalance();
+		
 	}
 
 	public abstract void setRate();
@@ -44,20 +44,20 @@ public abstract class Account implements IBaseRate {
 	public void deposit(double amount) {
 		balance += amount;
 		System.out.println("Depositing " + amount + "$");
-		showBalance();
+		
 	}
 	
 	public void withdraw(double amount) {
 		balance -= amount;
 		System.out.println("Withdrawing " + amount + "$");
-		showBalance();
+		
 	}
 	
 	
 	public void trensfer(String toWhere, double amount) {
 		balance -= amount;
 		System.out.println("Trensfering " + amount + "$" + "to " + toWhere);
-		showBalance();
+		
 	}
 	
 	public void showBalance() {
